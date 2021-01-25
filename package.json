@@ -1,0 +1,22 @@
+{
+  "name": "2021-quizapp",
+  "version": "1.0.0",
+  "description": "This is my great quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebtropper/2021-quizapp.git"
+  },
+  "author": "Andre B. Tropper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrebtropper/2021-quizapp/issues"
+  },
+  "homepage": "https://github.com/andrebtropper/2021-quizapp#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
