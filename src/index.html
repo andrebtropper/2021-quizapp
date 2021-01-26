@@ -4,68 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="basicstyle.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-       <h1> QUIZ-APP </h1>
+       <h1 class="header"> <img src="images/NFL-Logo.png"> NFL QUIZ-APP </h1>
     </header>
 <main>
-    <div class="question">
-        Question 1: 
-        <fieldset>  
-            <div class="textbox">
-            <p> How many points do you get for a Touchdown?</p>
-               
-            </div>
-            <button>ANSWER</button>
-           
-            <div class="hint">
-                <p class="tags"> Hint</p>
-                 <p class="tags"> Hint</p>
-                 <p class="tags"> Hint</p>
-                 <p class="tags"> Hint</p>
-           </div> 
-       </fieldset>  
-        </div>
-    <div class="question">
-        Question 2:
-    <fieldset>
-        <div class="textbox">
-            <p> How many minutes is each quarter?</p>
-               
-            </div>
-        <button>ANSWER</button>
-       
-        <div class="hint">
-            <p class="tags"> Hint</p>
-             <p class="tags"> Hint</p>
-             <p class="tags"> Hint</p>
-             <p class="tags"> Hint</p>
-       </div> 
-   </fieldset>  
-    </div>
-  <div class="question">  
-      Question 3:
-   <fieldset>
-    <div class="textbox">
-        <p> How many points do you get for a Touchdown?</p>
-           
-     </div>
-    <button>ANSWER</button>
-  
-    <div class="hint">
-        <p class="tags"> Hint</p>
-         <p class="tags"> Hint</p>
-         <p class="tags"> Hint</p>
-         <p class="tags"> Hint</p>
-   </div>
-</fieldset>  
-    </div>
+   
+    <article class="card">
+         <h2 class="card__headline">Question 1: </h2>
+            <p class="card__question"> How many points do you get for a Touchdown?
+            </p>   
+        
+     <button class="card__button">ANSWER</button>
+      <ul class="card__hints">
+         <li>5 points</li>
+         <li>10 points</li>
+         <li>7 points</li>
+         <li>6 points</li>
+         
+      </ul>
+    #</article>
+    
+    <article class="card">
+    
+       <h2 class="card__headline"> Question 2:</h2>
+         <p class="card__question"> How many minutes is each quarter?
+        </p>
 
-<footer class="footer">
-<nav class="nav">
-    <a href="#">HOME</a>
+        <button class="card__button">ANSWER</button>
+       <ul class="card__hints">
+           <li>10 minutes</li>
+           <li>15 minutes</li>
+           <li>20 minutes</li>
+           <li>12 minutes</li>
+       </ul>
+     
+    
+    </article>
+
+    <article class="card">
+
+    <h2 class="card__headline"> Question 3:</h2>
+     <p class="card__question"> How many players are on the field for each team?
+    </p>
+
+    <button class="card__button">ANSWER</button>
+   <ul class="card__hints">
+       <li>11 players</li>
+       <li>8 players</li>
+       <li>12 players</li>
+       <li>10 players</li>
+   </ul>
+
+</article>
+
+     
+    
+  
+  
+
+<footer>
+<nav class="navigation">
+    <a href="#"> HOME
+
+    </a>
     <a href="#">BOOKMARKS</a>
     <a href="#">CREATE</a>
     <a href="#">PROFILE</a>
@@ -73,4 +77,4 @@
 </footer>
 </main>
 </body>
-</html>
+</html>§

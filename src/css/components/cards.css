@@ -1,0 +1,44 @@
+.card{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    background-color: darkred;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.card__headline{
+    font-weight: 500;
+    color:white;
+    padding:10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.card__button{
+    border-radius: 20px;
+    border: none;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color: white;
+    color:black;
+    
+}
+
+.card__hints{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    justify-items:center;
+    margin: 10px 20px;
+    padding: 0;
+    
+}
+.card__question{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+}
