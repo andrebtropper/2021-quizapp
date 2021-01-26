@@ -21,18 +21,17 @@ header{
 .footer{
     
     background-color:maroon;
-    color: white;
-  text-align: center;
+    text-align: center;
     padding: 10px;
     border: black 2px solid;
     margin-top: 10px;
-    position:fixed;
-    margin-bottom: 0;
+    
 }
 
 .nav{
     display: grid;
     grid-template-columns: repeat(4,2fr);
+    
     
 }
 
@@ -55,4 +54,11 @@ header{
 fieldset{
     margin: 5px;
     
+}
+
+.text{
+display: grid;
+grid-template-columns: repeat(4, auto);
+column-gap: 5px;
+
 }
