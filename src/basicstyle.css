@@ -27,7 +27,7 @@ header{
     background-color:maroon;
     text-align: center;
     padding: 10px;
-    border: black 2px solid;
+    border: black 5px solid;
     margin-top: 10px;
     
 }
@@ -64,5 +64,6 @@ fieldset{
 display: grid;
 grid-template-columns: repeat(4, auto);
 column-gap: 5px;
+
 
 }
