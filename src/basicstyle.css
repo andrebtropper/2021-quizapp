@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .question{
     display: grid;
     margin: 1rem;
@@ -6,18 +11,48 @@
    
 }
 
-
+header{
+    background-color: maroon;
+    padding: 10px;
+    border:5px solid black;
+    
+}
 
 .footer{
-    position: fixed;
-    width: 100%;
-    background-color:lightcoral;
+    
+    background-color:maroon;
     color: white;
-    text-align: center;
+  text-align: center;
+    padding: 10px;
+    border: black 2px solid;
+    margin-top: 10px;
+    position:fixed;
+    margin-bottom: 0;
 }
 
 .nav{
     display: grid;
     grid-template-columns: repeat(4,2fr);
+    
 }
 
+.tags{
+    padding: 5px;
+    background-color: grey;
+    border:2px solid black;
+    width: max-content;
+
+}
+
+.hint{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    margin: 10px;
+
+}
+
+fieldset{
+    margin: 5px;
+    
+}
