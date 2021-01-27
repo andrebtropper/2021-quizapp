@@ -24,7 +24,7 @@ body{
 }
 .header{
     background-color: #AB1318;
-    padding: 10px 10px;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 1fr ;
