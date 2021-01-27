@@ -56,18 +56,19 @@
     grid-template-rows: 1fr;
     justify-items: center;
     align-content: center;
-    margin: 10px 10px;  
+    margin: 20px 10px;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #003775;
     border-radius: 20px;;
     padding: 0px 0px 10px;
-    
+    box-shadow: 0 0 10px black;
 }
 
 .card__form{
     padding:0px 0px;
     margin: 5px 10px;
     border-radius: 20px;
+    
 }
 
 .card__text{
