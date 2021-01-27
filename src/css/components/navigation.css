@@ -19,4 +19,6 @@
 
 .navigation__active{
     scale: 1.5;
+    box-shadow: 4px 4px 4px black;
 }
+

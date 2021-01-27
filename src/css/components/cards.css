@@ -45,9 +45,12 @@
 .card__question{
     font-weight: 700;
     text-align: center;
-    padding: 10px;
-
-    
+    padding:10px ;
+    border: solid 2px #AB1318;
+    margin:0 10px;
+    border-radius:20px;
+    border
+   
 }
 
 .card__create{
@@ -82,4 +85,35 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
+}
+
+
+.card__bookmark{
+    position: absolute;
+    right: 0px;
+    scale:0.4;
+    top:200px;
+   }
+
+.card__bookmark2{
+    position: absolute;
+    right: 0px;
+    scale:0.4;
+    top:510px;
+
+}
+
+.card__bookmark3{
+    position: absolute;
+    right: 0px;
+    scale:0.4;
+    top:820px;
+}
+
+.card__bookmark4{
+    position: absolute;
+    right: 0px;
+    scale:0.4;
+    top:1126px;   
+
 }
