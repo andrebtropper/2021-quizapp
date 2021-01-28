@@ -1,13 +1,14 @@
 .card{
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 4;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
     background: #003775;
     border-radius: 20px;
     margin:20px 20px 50px 20px;
     box-shadow: 0px 0px 10px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
+    
 }
 
 .card__headline{
@@ -49,7 +50,7 @@
     border: solid 2px #AB1318;
     margin:0 10px;
     border-radius:20px;
-    border
+    
    
 }
 
@@ -57,12 +58,12 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    justify-items: center;
+    justify-items:center;
     align-content: center;
     margin: 20px 10px;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #003775;
-    border-radius: 20px;;
+    border-radius: 20px;
     padding: 0px 0px 10px;
     box-shadow: 0 0 10px black;
 }
@@ -71,6 +72,8 @@
     padding:0px 0px;
     margin: 5px 10px;
     border-radius: 20px;
+    
+    
     
 }
 
@@ -87,33 +90,36 @@
     justify-items: center;
 }
 
-
-.card__bookmark{
-    position: absolute;
-    right: 0px;
-    scale:0.4;
-    top:200px;
-   }
-
-.card__bookmark2{
-    position: absolute;
-    right: 0px;
-    scale:0.4;
-    top:510px;
-
+.card__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items:center;
+    align-content: center;
+    margin: 20px 10px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #003775;
+    border-radius: 20px;
+    padding: 0px 0px 10px;
+    box-shadow: 0 0 10px black;
 }
 
-.card__bookmark3{
-    position: absolute;
-    right: 0px;
-    scale:0.4;
-    top:820px;
+.card__form{
+    padding:0px 0px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    
 }
 
-.card__bookmark4{
-    position: absolute;
-    right: 0px;
-    scale:0.4;
-    top:1126px;   
-
+.card__text{
+    color: white;
+    padding: 10px;
 }
+
+.card__inputform{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
