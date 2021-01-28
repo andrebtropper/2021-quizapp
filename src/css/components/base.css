@@ -20,7 +20,7 @@ ol[class]{
 }
 body{
     font-size: 1.25rem;
-    line-height: 1.5;
+    line-height: 1;
     background-color:silver;
     margin: 0 0 20px 0;
 }
@@ -54,3 +54,17 @@ footer{
     scale: .8;  
 }
 
+.hint{
+    background:#AB1318;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    border:2px solid silver;
+    width: 50px;
+    height:50px;
+
+}
+
+.hint:hover {
+    transform: scale(1.2);
+    background:silver;
+}
