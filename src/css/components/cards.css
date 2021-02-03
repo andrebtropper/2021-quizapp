@@ -8,6 +8,7 @@
     box-shadow: 0px 0px 10px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
+    opacity: 80%;
     
 }
 
@@ -31,6 +32,10 @@
     font-size: 15px;
     
 }
+.card__button:hover {
+    transform: scale(1.01);
+    background:silver;
+}
 
 .card__hints{
     display:grid;
@@ -47,8 +52,8 @@
     font-weight: 700;
     text-align: center;
     padding:10px ;
-    border: solid 2px #AB1318;
-    margin:0 ;
+    border: solid 1px #AB1318;
+    margin:0 10px;
     border-radius:20px;
     
    
@@ -66,6 +71,7 @@
     border-radius: 20px;
     padding: 0px 0px 10px;
     box-shadow: 0 0 10px black;
+;
 }
 
 .card__form{
@@ -102,6 +108,7 @@
     border-radius: 20px;
     padding: 0px 0px 10px;
     box-shadow: 0 0 10px black;
+    opacity: 85%;
 }
 
 .card__form{
@@ -128,3 +135,4 @@
     width: 40px;
     height:40px;     
 }
+

@@ -12,6 +12,8 @@ h2,
 h3,
 p{
     margin: 0;
+   
+    
 }
 ul[class],
 ol[class]{
@@ -19,23 +21,35 @@ ol[class]{
     padding: 0;
 }
 body{
+    background-image: url("../components/field2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
     font-size: 1.25rem;
     line-height: 1;
-    background-color:silver;
+    
     margin: 0 0 20px 0;
+    
+
+
+
+
 }
 .header{
-    background-color: #AB1318;
-    
+   background: transparent;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     display: grid;
     grid-template-columns: 1fr ;
     justify-items: center;
     border-radius: 20px;
-    box-shadow:0px 0px 10px black;
+    box-shadow:0px 0px 10px white;
     margin: 20px 10px 40px 10px;
     font-size: 2rem;
     padding: 5px;
+    text-shadow:0px 0px 3px whitesmoke;
+    color: #003775;
+    
+   
     
 }
 img{
@@ -61,6 +75,7 @@ footer{
     border:2px solid silver;
     width: 50px;
     height:50px;
+    text-align: center;
 
 }
 
@@ -68,3 +83,38 @@ footer{
     transform: scale(1.2);
     background:silver;
 }
+
+
+
+
+.hidden{
+    display: none; 
+     visibility: hidden;
+
+ 
+ }
+
+ .reveal{
+     background: silver;
+     border-radius: 50%;
+     padding: 10px 10px 10px 10px;
+     border: 2px solid black;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     margin-left: 120px;
+     margin-top: 20px;
+ }
+
+ .card__answer{
+    
+    box-shadow: 0px 0px 10px black;
+
+ }
+
+ .background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+ }
+

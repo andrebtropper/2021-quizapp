@@ -5,53 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="app.js" defer></script> 
+   
 </head>
 <body>
+   
     <header>
-       <h1 class="header"> <img src="images/NFL-Logo.png">NFL RULEBOOK </h1>
+       <h1 class="header"> <img src="images/NFL-Logo.png"> RULEBOOK </h1>
     </header>
 <main>
     
     <article class="card">
+
+    
          
-        <h2 class="card__headline">Question 1 <img src="images/bookmark.svg" class="image__bookmark"> </h2>
+        <h2 class="card__headline">Question 1 <img src="images/ball (1).svg" class="image__bookmark"> </h2>
             <p class="card__question"> How many points do you get for a Touchdown?
             </p>   
-        
-     <button class="card__button">ANSWER</button>
-      <ul class="card__hints">
+     
+     <ul class="card__hints">
         <div class="hint"><li>5 </li> </div>
         <div class="hint"><li>10 </li></div>
         <div class="hint"> <li>7 </li></div>
-        <div class="hint"> <li>6 </li></div>
-         
-      </ul>
+        <div class="hint"> <li>6 </li></div>     
+     </ul>
+
+     <button id="button1" class="card__button">SHOW ANSWER</button>
+     <p  class=" card__answer hidden reveal">6</p>
+
+
     </article>
     
     <article class="card">
     
-        <h2 class="card__headline">Question 2 <img src="images/bookmark.svg" class="image__bookmark"></h2> 
+        <h2 class="card__headline">Question 2 <img src="images/ball (1).svg" class="image__bookmark"></h2> 
          <p class="card__question"> How many minutes is each quarter?
         </p>
 
-        <button class="card__button">ANSWER</button>
        <ul class="card__hints">
         <div class="hint"><li>10 </li></div>
         <div class="hint"><li>15 </li></div>
         <div class="hint"><li>20 </li> </div>
         <div class="hint"><li>12 </li></div>
        </ul>
-     
+
+       <button id="button2" class="card__button">SHOW ANSWER</button>
+       <p id="answer2" class="card__answer hidden reveal">15</p>
     
     </article>
 
     <article class="card">
 
-        <h2 class="card__headline"> Question 3 <img src="images/bookmark.svg" class="image__bookmark"> </h2>
-     <p class="card__question"> How many players are on the field for each team?
-    </p>
+        <h2 class="card__headline"> Question 3 <img src="images/ball (1).svg" class="image__bookmark"> </h2>
+     <p class="card__question"> How many players are on the field for each team?</p>
 
-    <button class="card__button">ANSWER</button>
+    
    <ul class="card__hints">
     <div class="hint"><li>11</li></div>
     <div class="hint"><li>15 </li></div>
@@ -59,21 +67,27 @@
     <div class="hint"><li>10 </li></div>
    </ul>
 
+   <button id="button3" class="card__button">SHOW ANSWER</button>
+   <p id="answer3" class="card__answer hidden reveal">11</p>
+
+
 </article>
 
 <article class="card">
 
-    <h2 class="card__headline"> Question 4<img src="images/bookmark.svg" class="image__bookmark"></h2>
-     <p class="card__question"> What is the maximum amount of players on a team?
+    <h2 class="card__headline"> Question 4<img src="images/ball (1).svg" class="image__bookmark"></h2>
+     <p class="card__question"> What is the maximum amount of players on a team roster?
     </p>
 
-    <button class="card__button">ANSWER</button>
    <ul class="card__hints">
     <div class="hint"> <li>48</li></div>
     <div class="hint"><li>35</li></div>
     <div class="hint"> <li>73</li></div>
    <div class="hint"> <li>52</li></div>
    </ul>
+
+   <button id="button4" class="card__button">SHOW ANSWER</button>
+    <p id="answer4" class="card__answer hidden reveal">52</p>
 
 </article>
      
@@ -86,7 +100,7 @@
 
     </a>
    
-<a href="bookmark.html"><img src="images/bookmark.svg" alt="bookmark"
+<a href="bookmark.html"><img src="images/ball (1).svg" alt="bookmark"
     width="50px">
     </a>
     
