@@ -1,14 +1,11 @@
-export function toggleAnswer(button){
-     
-    buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-            const answer = button.parentNode.querySelector('.card__answer');
-            answer.classList.toggle('hidden');
+ export function toggleAnswer(buttons){
     
-            button.innerText = answer.classList.contains('hidden') ? 'SHOW' : 'HIDE';
-    
-            button.innerText += ' ANSWER';
-        })
+    button.addEventListener('click', () => {
+        const answer = button.parentNode.querySelector('.card__answer');
+        button.classList.toggle('hidden');
+        button.innerText = answer.classList.contains('hidden') ? 'SHOW' : 'HIDE';
+        button.innerText += ' ANSWER';
     })
+
 }
 
