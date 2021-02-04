@@ -48,7 +48,7 @@ body{
     padding: 5px;
     text-shadow:0px 0px 3px whitesmoke;
     color: #003775;
-    
+  
    
     
 }
@@ -94,6 +94,14 @@ footer{
  
  }
 
+ .bookmark__hidden{
+     display:none;
+     visibility: hidden;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+ }
+
  .reveal{
      background: silver;
      border-radius: 50%;
@@ -102,8 +110,9 @@ footer{
      width: 50px;
      height: 50px;
      text-align: center;
-     margin-left: 120px;
+     margin-left: 140px;
      margin-top: 20px;
+     margin-bottom: 20px;
  }
 
  .card__answer{

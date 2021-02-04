@@ -15,11 +15,14 @@ buttons.forEach((button) => {
 
 
 
-const bookmarks = document.querySelectorAll('image__bookmark');
+const bookmarks = document.querySelectorAll('.card__headline');
 
-bookmarks.forEach((bookmark) =>{
- button.addEventListener('click'), () => {
-    const answer = bookmark.querySelector('click__bookmark');
-    answer.classList.toggle('fill__bookmark');
-}
+bookmarks.forEach((div) =>{
+ div.addEventListener('click', () => {
+    const bookmarkIcons = div.querySelectorAll('.image__bookmark');
+    bookmarkIcons[0].classList.toggle('bookmark__hidden');
+    console.log(bookmarkIcons);
+    bookmarkIcons[1].classList.toggle('bookmark__hidden');
+    
+})
 })
